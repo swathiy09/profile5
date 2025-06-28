@@ -1,0 +1,27 @@
+.div1{
+    height: 150px;
+    background-color: rgb(111, 16, 16);
+}
+ .div2 {
+  position: absolute;
+  top: 75px;
+  left: 20%; /* Center horizontally */
+  transform: translateX(-50%);
+  text-align: center;
+}
+.div2 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.div3{
+    height: 600px;
+    background-color: rgb(137, 137, 137);
+}
+.container{
+    width: 600px;
+    height: 600px;
+}
